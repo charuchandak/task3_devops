@@ -19,7 +19,7 @@ spec:
         ports:
           - containerPort: 80
         volumeMounts:
-          - mountPath: /var/log/
+          - mountPath: /etc/httpd/logs
             name: php-storage
 
       volumes:
